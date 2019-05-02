@@ -1,5 +1,5 @@
 import React from 'react';
-
+import github from '../assets/Github.png'
 function Info() {
 	return(
 		<div style={{ 
@@ -11,6 +11,8 @@ function Info() {
 				color: 'white',
 				textAlign: 'initial'
 			}}>
+			<a href="https://github.com/sk14235/bottom-app-bar" title="Repo Link" target="_blank" rel="noopener noreferrer"><img height={40} src={github} alt={'github logo'}/></a>
+			<br />
 			Icons used<br />
 			Featured:{' '}
 			<a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy" target="_blank" rel="noopener noreferrer">{' '}Dave Gandy{' '}</a>
