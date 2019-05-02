@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #253598;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold
 }
 
 .App-logo {
@@ -30,4 +42,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0 20px;
+  transform: scale(1.5);
+  box-shadow: 0px 10px 40px 0px #18236b;
 }
