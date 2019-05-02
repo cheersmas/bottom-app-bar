@@ -3,13 +3,13 @@ import React from 'react';
 function Info() {
 	return(
 		<div style={{ 
-			position: 'absolute',
-			bottom: 0, right: 0,
-			margin: 10, padding: 10,
-			backgroundColor: 'rgb(5, 9, 80)',
-			borderRadius: 4,
-			color: 'white',
-			textAlign: 'initial'
+				position: 'absolute',
+				bottom: 0, right: 0,
+				margin: 10, padding: 10,
+				backgroundColor: 'rgb(5, 9, 80)',
+				borderRadius: 4,
+				color: 'white',
+				textAlign: 'initial'
 			}}>
 			Icons used<br />
 			Featured:{' '}
