@@ -1,5 +1,7 @@
 # Bottom Navigation Animation
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/89028631-91ae-4636-8bbe-c2a2373d7546/deploy-status)](https://app.netlify.com/sites/button-navigation/deploys)
+
 This project is inspired by [Toolbar icons animation](https://dribbble.com/shots/5605168-Toolbar-icons-animation) from [Cuberto](https://dribbble.com/cuberto).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
