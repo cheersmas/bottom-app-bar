@@ -12,7 +12,7 @@ function App() {
         : active === 'search' ? '#BE3099'
         : active === 'featured' ? '#E39A28'
         : '#1194AA',
-      transition: 'all 200ms ease-in'
+      transition: 'all 50ms linear'
     }}>
       <Info />
       <MenuBar />
