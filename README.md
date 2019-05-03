@@ -1,4 +1,6 @@
-# Bottom Navigation Animation
+# Button Navigation Animation
+
+[Link](https://button-navigation.netlify.com/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/89028631-91ae-4636-8bbe-c2a2373d7546/deploy-status)](https://app.netlify.com/sites/button-navigation/deploys)
 
