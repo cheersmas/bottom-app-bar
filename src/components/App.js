@@ -15,7 +15,10 @@ function App() {
       transition: 'all 50ms linear'
     }}>
       <Info />
-      <MenuBar />
+      <MenuBar
+        active={active}
+        setActive={setActive}
+      />
       <MenuBar2 
         active={active}
         setActive={setActive}

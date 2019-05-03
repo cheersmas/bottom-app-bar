@@ -2,7 +2,7 @@ import React from 'react'
 import { useSpring, animated } from 'react-spring';
 
 function Item (props) {
-  const {logo, id, text, isActive, setActive} = props;
+  const {logo, value, text, isActive, setActive} = props;
   const {xy, clipPath1} = useSpring({
     clipPath1: isActive ? 
     'polygon(5px -20px, 42px -20px, 41px -1px, 6px -8px)' 
@@ -21,7 +21,7 @@ function Item (props) {
   })
 
   return (
-    <div onClick={() => setActive(id)} style={{ padding: 10, cursor: 'pointer' }}>
+    <div onClick={() => setActive(value)} style={{ padding: 10, cursor: 'pointer' }}>
       <animated.div
         style={{
           transform: xy.interpolate((x, y) => `translate(${x}px, ${y}px)`)

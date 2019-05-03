@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import MenuItem from './MenuItem';
 import EventsLogo from './Icons/Events'
 import FeaturedLogo from './Icons/Featured'
@@ -8,9 +8,9 @@ import Slider from './Icons/Slider'
 function MenuBar2(props) {
     const {active, setActive} = props; 
     return(
-        <div className={'menu-bar-horizontal'}>
+        <div className={'menu-bar-horizontal'} id={'menu-bar-horizontal'}>
             <MenuItem 
-                id={'events'}
+                value={'events'}
                 logo={<EventsLogo width={15} height={15} fill={ active === 'events' ? '#5B37B7' : '#9292B0' }/>}
                 text={'Events'}
                 isActive={active === 'events'}
@@ -19,7 +19,7 @@ function MenuBar2(props) {
                 backgroundColor={'rgba(91, 55, 183, 0.3)'}       
             />
             <MenuItem 
-                id={'search'}
+                value={'search'}
                 logo={<Search width={15} height={15} fill={ active === 'search' ? '#BE3099' : '#9292B0'}/>}
                 text={'Search'}
                 isActive={active === 'search'}
@@ -28,7 +28,7 @@ function MenuBar2(props) {
                 backgroundColor={'rgb(190, 48, 153, 0.3)'}
             />
             <MenuItem 
-                id={'featured'}
+                value={'featured'}
                 logo={<FeaturedLogo width={15} height={15} fill={active === 'featured' ? '#E39A28' : '#9292B0'} />}
                 text={'Featured'}
                 isActive={active === 'featured'}
@@ -37,7 +37,7 @@ function MenuBar2(props) {
                 backgroundColor={'rgb(227, 154, 40, 0.3)'}
             />
             <MenuItem
-                id={'settings'}
+                value={'settings'}
                 logo={<Slider width={15} height={15} fill={active === 'settings' ? '#1194AA' : '#9292B0'} />}
                 text={'Settings'}
                 isActive={active === 'settings'}

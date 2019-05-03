@@ -6,7 +6,7 @@ import {
 } from 'react-spring';
 
 function MenuItem(propsComp) {
-	const {text, setActive, id, logo, isActive, color, backgroundColor} = propsComp;
+	const {text, setActive, value, logo, isActive, color, backgroundColor} = propsComp;
 	const transitions = useTransition(isActive, null, {
 		from: { opacity: 0, width: 0 },
 		enter: { opacity: 1, width: 40 },
@@ -27,7 +27,7 @@ function MenuItem(propsComp) {
 			backgroundColor: x.interpolate({ range: [0, 1], output: ['transparent', backgroundColor]}),
 			borderRadius: 20
 		}}
-			onClick={() => setActive(id)}
+			onClick={() => setActive(value)}
 		>
 			{logo}
 			{transitions.map(({ item, key, props }) =>
