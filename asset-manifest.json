@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bottom-app-bar/static/css/main.ce4512e8.chunk.css",
+    "main.js": "/bottom-app-bar/static/js/main.2402df5e.chunk.js",
+    "main.js.map": "/bottom-app-bar/static/js/main.2402df5e.chunk.js.map",
+    "runtime~main.js": "/bottom-app-bar/static/js/runtime~main.1ef12a19.js",
+    "runtime~main.js.map": "/bottom-app-bar/static/js/runtime~main.1ef12a19.js.map",
+    "static/js/2.ca07c358.chunk.js": "/bottom-app-bar/static/js/2.ca07c358.chunk.js",
+    "static/js/2.ca07c358.chunk.js.map": "/bottom-app-bar/static/js/2.ca07c358.chunk.js.map",
+    "index.html": "/bottom-app-bar/index.html",
+    "precache-manifest.0e2986e60210d78542012ad771198025.js": "/bottom-app-bar/precache-manifest.0e2986e60210d78542012ad771198025.js",
+    "service-worker.js": "/bottom-app-bar/service-worker.js",
+    "static/css/main.ce4512e8.chunk.css.map": "/bottom-app-bar/static/css/main.ce4512e8.chunk.css.map",
+    "static/media/Github.png": "/bottom-app-bar/static/media/Github.064ace47.png",
+    "static/media/events.svg": "/bottom-app-bar/static/media/events.d6120218.svg",
+    "static/media/featured.svg": "/bottom-app-bar/static/media/featured.4f030d2b.svg",
+    "static/media/search.svg": "/bottom-app-bar/static/media/search.6cf2d98e.svg",
+    "static/media/slider.svg": "/bottom-app-bar/static/media/slider.ebf0c5e9.svg"
+  }
+}
